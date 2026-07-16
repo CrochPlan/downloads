@@ -1,0 +1,287 @@
+/* ---------------------------------------------------------
+   Tokens
+--------------------------------------------------------- */
+:root {
+  --bg: #12151b;
+  --surface: #1a1f28;
+  --surface-hover: #212733;
+  --border: #2a3038;
+  --text: #ece9e1;
+  --text-muted: #8b92a3;
+  --accent: #c99754;      /* laiton — accent principal */
+  --accent-soft: rgba(201, 151, 84, 0.14);
+  --secondary: #5b8c7b;   /* vert atelier — badges plateforme */
+  --secondary-soft: rgba(91, 140, 123, 0.14);
+  --danger: #b56b5c;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --radius: 6px;
+  --max-width: 780px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --transition: 150ms ease;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition: 0ms;
+  }
+}
+
+/* ---------------------------------------------------------
+   Reset / base
+--------------------------------------------------------- */
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font-family: var(--font-mono);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ---------------------------------------------------------
+   Hero
+--------------------------------------------------------- */
+.hero {
+  border-bottom: 1px solid var(--border);
+  padding: 4.5rem 1.5rem 3.5rem;
+  background:
+    radial-gradient(ellipse 900px 400px at 50% -10%, var(--accent-soft), transparent 70%);
+}
+
+.hero__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  text-transform: lowercase;
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  line-height: 1.05;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.hero__tagline {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  margin: 0 0 1.5rem;
+  max-width: 46ch;
+}
+
+.hero__link {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+  transition: border-color var(--transition), color var(--transition);
+}
+.hero__link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------------------------------------------------------
+   Catalog
+--------------------------------------------------------- */
+.catalog {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+}
+
+.catalog__empty {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.app-entry {
+  border-top: 1px dashed var(--border);
+  padding: 2.25rem 0;
+}
+.app-entry:first-child {
+  border-top: none;
+}
+
+.app-entry__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.app-entry__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.app-entry__stamp {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.15rem 0.5rem;
+  white-space: nowrap;
+}
+
+.app-entry__tagline {
+  color: var(--text-muted);
+  margin: 0 0 0.75rem;
+}
+
+.app-entry__description {
+  margin: 0 0 1.25rem;
+  max-width: 62ch;
+}
+
+.app-entry__links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.1rem;
+  font-size: 0.85rem;
+}
+.app-entry__links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--border);
+}
+.app-entry__links a:hover {
+  color: var(--accent);
+}
+
+/* Download manifest */
+.downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.download-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.65rem 0.9rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: background var(--transition), border-color var(--transition);
+}
+.download-row:hover {
+  background: var(--surface-hover);
+  border-color: var(--accent);
+}
+
+.download-row__platform {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: var(--secondary-soft);
+  border-radius: 4px;
+  padding: 0.2rem 0.45rem;
+  flex-shrink: 0;
+  width: 5.4rem;
+  text-align: center;
+}
+
+.download-row__label {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.92rem;
+}
+
+.download-row__meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.download-row__arrow {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.download-row:hover .download-row__arrow {
+  color: var(--accent);
+}
+
+.catalog__error {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--danger);
+}
+
+/* ---------------------------------------------------------
+   Footer
+--------------------------------------------------------- */
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.site-footer p {
+  margin: 0 0 0.35rem;
+}
+.site-footer__muted {
+  color: #5b616f;
+}
+
+/* ---------------------------------------------------------
+   Responsive
+--------------------------------------------------------- */
+@media (max-width: 480px) {
+  .hero { padding: 3rem 1.25rem 2.5rem; }
+  .download-row__label { white-space: normal; }
+}
