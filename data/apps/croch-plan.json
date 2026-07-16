@@ -3,7 +3,7 @@
   "name": "Croch'Plan",
   "tagline": "Concevez et éditez vos patrons de crochet.",
   "description": "Application de bureau pour créer, éditer et exporter des diagrammes de points de crochet, avec sauvegarde chiffrée des fichiers .cplan.",
-  "version": 0.2.2,
+  "version": "0.2.2",
   "downloads": [
     {
       "platform": "Linux",
