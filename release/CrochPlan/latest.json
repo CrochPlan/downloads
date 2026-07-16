@@ -1,0 +1,23 @@
+{
+  "version": "0.2.2",
+  "notes": "Release v0.2.2",
+  "pub_date": "2026-07-16T21:35:46Z",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHJNWElMVzh0N24yRGdyVmRwQUZnajYreEVFMGVPejVBRURXelFTUjA0Vno3cVMwWEVUSlhIQzk0cGUzQ003cXpiVmt3WlBZNFJndFBGZTFRSEsrM1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjM3MjY1CWZpbGU6Q3JvY2hQbGFuXzAuMi4yX2FtZDY0LkFwcEltYWdlCkVqcytLRk9QTS8walk2NDhxSWR6enpBSkpvOG9VemYwRHRNdFlxaXlVSHFwMmN5WmhBOXhyQzRVT0UzVnpQMXY1SDBQUDdtNFFXbkxrdVh1NU5qakJBPT0K",
+      "url": "https://crochplan.github.io/downloads/release/CrochPlan/linux/CrochPlan_0.2.2_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWG5ESWN2d2dYWGh3REpueXQ1enFoTGNqUFZaZjYyTy95SDluMkxRUklZV1V3cUVjMmFBOW5zdk5RNXdQQW1MRldaSmlENGNLU1JwdEJBbTdycHg2aWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjM3NzA4CWZpbGU6Q3JvY2hQbGFuXzAuMi4yX3g2NF9lbi1VUy5tc2kKUXFkZXFLL2poZUM5TUttVWgwb3RvZWtmWE5OSmRCdXlwdko3WlpGZXBnQTg5R2YrTGRaOUNQeDBZUDZjQ2RMV2puaklHOURKOTVmNUZWNWU2by93QXc9PQo=",
+      "url": "https://crochplan.github.io/downloads/release/CrochPlan/windows/CrochPlan_0.2.2_x64_en-US.msi"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHYrbU5ENmJRK24zQXFFc2doMCtRNE9OcktIR09PZHZiL3JUSklGQlEreGQ5djFtTkdYaVlKN2F4ek5Nb0owTURlV1kzZmVBWWFacFd0UHl2NlVIeXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjM3NTQ2CWZpbGU6Q3JvY2hQbGFuLmFwcC50YXIuZ3oKMi9kMGdiZ1A3U0VJRERFWTZWNUVXSEtqUkxWTTAzcjVvQldqVUFrclNKYm45NTMrVEJTR3VObjdTb0ZTS3FjQXhSbzRFU3phc2JpOHArTm40OUlSRHc9PQo=",
+      "url": "https://crochplan.github.io/downloads/release/CrochPlan/macos/CrochPlan_0.2.2_universal.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZkd2SUg4ZVNHWHYrbU5ENmJRK24zQXFFc2doMCtRNE9OcktIR09PZHZiL3JUSklGQlEreGQ5djFtTkdYaVlKN2F4ek5Nb0owTURlV1kzZmVBWWFacFd0UHl2NlVIeXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjM3NTQ2CWZpbGU6Q3JvY2hQbGFuLmFwcC50YXIuZ3oKMi9kMGdiZ1A3U0VJRERFWTZWNUVXSEtqUkxWTTAzcjVvQldqVUFrclNKYm45NTMrVEJTR3VObjdTb0ZTS3FjQXhSbzRFU3phc2JpOHArTm40OUlSRHc9PQo=",
+      "url": "https://crochplan.github.io/downloads/release/CrochPlan/macos/CrochPlan_0.2.2_universal.app.tar.gz"
+    }
+  }
+}
