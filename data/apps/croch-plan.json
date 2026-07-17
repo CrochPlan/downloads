@@ -3,22 +3,22 @@
   "name": "Croch'Plan",
   "tagline": "Concevez et éditez vos patrons de crochet.",
   "description": "Application de bureau pour créer, éditer et exporter des diagrammes de points de crochet, avec sauvegarde chiffrée des fichiers .cplan.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "downloads": [
     {
       "platform": "Linux",
-      "label": "CrochPlan_0.3.0_amd64.AppImage",
-      "file": "release/CrochPlan/linux/CrochPlan_0.3.0_amd64.AppImage"
+      "label": "CrochPlan_0.3.1_amd64.AppImage",
+      "file": "release/CrochPlan/linux/CrochPlan_0.3.1_amd64.AppImage"
     },
     {
       "platform": "Windows",
-      "label": "CrochPlan_0.3.0_x64_en-US.msi",
-      "file": "release/CrochPlan/windows/CrochPlan_0.3.0_x64_en-US.msi"
+      "label": "CrochPlan_0.3.1_x64_en-US.msi",
+      "file": "release/CrochPlan/windows/CrochPlan_0.3.1_x64_en-US.msi"
     },
     {
       "platform": "macOS",
-      "label": "CrochPlan_0.3.0_universal.dmg",
-      "file": "release/CrochPlan/macos/CrochPlan_0.3.0_universal.dmg"
+      "label": "CrochPlan_0.3.1_universal.dmg",
+      "file": "release/CrochPlan/macos/CrochPlan_0.3.1_universal.dmg"
     }
   ]
 }
